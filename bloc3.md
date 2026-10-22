@@ -11,7 +11,7 @@ git add main.js
 git commit -m "feat: unhandled spectral exception"
 ```
 
-**Captura:** [Afegir captura del commit infectat]
+![img](img/00012.png)
 
 ## Acció 3.12 — Inspecció de diferències
 
@@ -22,7 +22,7 @@ per identificar el canvi introduït.
 git diff HEAD~1 HEAD
 ```
 
-**Captura:** [Afegir captura de la diferència]
+![img](img/0013.png)
 
 ## Acció 3.13 — Exorcisme
 
@@ -34,7 +34,7 @@ git reset --hard HEAD~1
 git status
 ```
 
-**Captura:** [Afegir captura de la restauració]
+![img](img/0014.png)
 
 ## Acció 3.14 — Historial final
 
@@ -45,7 +45,7 @@ branques, la fusió i la restauració de l'estat segur.
 git log --graph
 ```
 
-**Captura:** [Afegir captura de l'historial final]
+![img](img/0015.png)
 
 ## Acció 3.15 — Publicació remota
 
@@ -59,3 +59,5 @@ les branques i l'historial, queda pendent de completar
 amb el procediment de publicació explicat a classe.
 
 **Captura:** [Afegir captura del repositori públic]
+
+![img](img/0016.png)

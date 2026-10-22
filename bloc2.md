@@ -12,7 +12,7 @@ git switch -c feature-nightmare
 git branch
 ```
 
-**Captura:** [Afegir captura de la terminal]
+![img](img/0006.png)
 
 ## Acció 3.7 — Línia temporal de la pesadilla
 
@@ -26,7 +26,7 @@ git commit -m "feat: inject spectral nightmare protocol"
 
 **Captura:** [Afegir captura del commit]
 
-## Acció 3.8 — Línia temporal de protecció
+![img](img/0007.png)
 
 S'ha creat una segona branca des de main i s'ha substituït
 la mateixa línia per activar el protocol de protecció.
@@ -38,7 +38,8 @@ git add main.js
 git commit -m "feat: activate sanctuary protection protocol"
 ```
 
-**Captura:** [Afegir captura del commit]
+![img](img/0008.png)
+![img](img/0009.png)
 
 ## Acció 3.9 — Integració de branques
 
@@ -54,7 +55,7 @@ git merge feature-sanctuary
 La segona integració provoca un conflicte perquè les dues
 branques han modificat la mateixa línia.
 
-**Captura:** [Afegir captura del conflicte]
+![img](img/0010.png)
 
 ## Acció 3.10 — Resolució del conflicte
 
@@ -67,4 +68,4 @@ git commit -m "merge: resolve spectral conflict with sanctuary protocol"
 git log --graph
 ```
 
-**Captura:** [Afegir captura del commit de fusió]
+![img](img/0011.png)

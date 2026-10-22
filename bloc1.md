@@ -12,8 +12,6 @@ cd server-room-horror
 git status
 ```
 
-**Captura:** [Afegir captura de la terminal]
-
 ## Acció 3.2 — Configuració de Git
 
 S'ha configurat la identitat de l'investigador i l'editor
@@ -22,10 +20,9 @@ de text que utilitzarà Git.
 ```bash
 git config --global user.name "santiago.moreno"
 git config --global user.email "alu.santiago.moreno@mataro.epiaedu.cat"
-git config --global core.editor "code --wait"
 ```
 
-**Captura:** [Afegir captura de la terminal]
+![img](img/0001.png)
 
 ## Acció 3.3 — Primer commit
 
@@ -38,7 +35,7 @@ git diff --staged
 git commit -m "feat: initialize server room monitoring system"
 ```
 
-**Captura:** [Afegir captura de la terminal]
+![img](img/0002.png)
 
 ## Acció 3.4 — Segon i tercer commit
 
@@ -49,13 +46,13 @@ la detecció d'una activitat anòmala.
 git add main.js
 git commit -m "feat: activate server room security"
 ```
+![img](img/0003.png)
 
 ```bash
 git add main.js
 git commit -m "feat: detect abnormal server activity"
 ```
-
-**Captura:** [Afegir les captures dels dos commits]
+![img](img/0004.png)
 
 ## Acció 3.5 — Historial
 
@@ -66,4 +63,4 @@ inicials del repositori.
 git log --graph
 ```
 
-**Captura:** [Afegir captura de l'historial]
+![img](img/0005.png)
